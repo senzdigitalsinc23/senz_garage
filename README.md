@@ -2,4 +2,4 @@
 
 About Senz Garage
 
-This is a number one car shop where you can buy and sell your home used cars.
+This is a number one car shop where you can hire, buy or sell your home used cars.
