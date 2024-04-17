@@ -38,3 +38,35 @@ nav ul{
     border-radius: 10px;
 }
 
+.hero {
+    display: flex;
+    width: inherit;
+    flex-wrap: wrap;
+    padding: 100px;
+    gap: 50px;
+    justify-content: center;
+
+}
+
+.hero-image {
+    width: 400px;
+    
+}
+
+.hero-text {
+    width: 400px;
+
+}
+
+.hero-text h3, p{
+    padding-bottom: 8px;
+}
+
+.hero-text button {
+    font-size: 1.8em;
+    font-weight: 900;
+    background-color: #3882F6;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
