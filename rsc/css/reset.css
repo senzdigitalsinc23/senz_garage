@@ -75,3 +75,7 @@ table {
 textarea {
   white-space: revert;
 }
+
+button {
+  cursor: pointer;
+}
