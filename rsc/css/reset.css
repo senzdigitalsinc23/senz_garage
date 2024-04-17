@@ -63,8 +63,7 @@ p {
 }
 /* For images to not be able to exceed their container */
 img {
-  width: auto;
-  max-width: 100%;
+  width: 300px;
 }
 
 /* Removes spacing between cells in tables */

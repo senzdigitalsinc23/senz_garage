@@ -4,7 +4,7 @@
 }
 
 
-
+/* CSS styling for the header */
 .main-header {
     justify-content: center;
     height: fit-content;
@@ -38,6 +38,7 @@ nav ul{
     border-radius: 10px;
 }
 
+/* CSS Styling for the hero section */
 .hero {
     display: flex;
     width: inherit;
@@ -48,9 +49,9 @@ nav ul{
 
 }
 
-.hero-image {
+.hero-image img{
     width: 400px;
-    
+    border-radius:20px;    
 }
 
 .hero-text {
@@ -69,4 +70,54 @@ nav ul{
     padding: 5px 15px 5px 15px;
     border-radius: 10px;
     cursor: pointer;
+}
+
+
+/* CSS styling for our top cars recommendation */
+.top-cars {
+    padding: 100px;
+    height: fit-content;
+}
+
+.cars-card {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.cars-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.cars-card-item {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cars-card-item p {
+    font-size: 2em;
+    padding-bottom: 2px
+}
+
+.cars-card-item a {
+    font-size: 1.6em;
+    font-weight: 600;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.cars-card-item a:hover {
+    color: #3882F6;
+    transition: all 0.3s ease-in-out;
+}
+
+.top-cars h6 {
+    text-align: center;
+    padding: 20px;
 }
