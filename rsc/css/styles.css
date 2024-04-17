@@ -121,3 +121,27 @@ nav ul{
     text-align: center;
     padding: 20px;
 }
+
+/* CSS styling for our customers quote */
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 1;
+    flex-grow: 1;
+    flex-shrink: 2;
+    height: fit-content;
+    padding: 100px;
+    background-color: #E5E7EB;
+    font-size: 2vw;
+    font-style: italic;
+    color: #4c4f53;
+}
+
+.author {
+    display: flex;
+    justify-content: end;
+    font-size: 1.8vw;
+    font-weight: 900;
+    color: black;
+}
