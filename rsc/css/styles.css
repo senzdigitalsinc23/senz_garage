@@ -1,0 +1,40 @@
+:root {
+    font-size: 62.5%;
+    background-color: white;
+}
+
+
+
+.main-header {
+    justify-content: center;
+    height: fit-content;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    
+}
+
+header {
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+    background-color: white;
+    color: #1F2937;
+    padding: 20px 80px 20px 80px;
+    justify-content: space-between;
+}
+
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    font-size: .9em;
+    font-weight: 900
+    
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: 900;
+    border-radius: 10px;
+}
+
